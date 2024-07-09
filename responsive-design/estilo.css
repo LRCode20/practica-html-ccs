@@ -1,0 +1,61 @@
+* {
+  box-sizing: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.c1,
+.c2,
+.c3,
+.c4,
+.c5 {
+  width: 100%;
+  min-width: 150px;
+  height: 150px;
+}
+
+.c1 {
+  background-color: #003476;
+}
+
+.c2 {
+  background-color: #089;
+}
+
+.c3 {
+  background-color: #953;
+}
+
+.c4 {
+  background-color: #399;
+}
+
+.c5 {
+  background-color: #006633;
+}
+
+/* DSIÑO RESPONSIVO */
+/* PARA CELULAR */
+@media (min-width: 768px) {
+
+  .c2,
+  .c3,
+  .c4 {
+    width: 50%;
+  }
+}
+
+/* PARA TABLE */
+@media (min-width: 1200px) {
+
+  .c2,
+  .c3,
+  .c4 {
+    width: 25%;
+  }
+}
